@@ -18,7 +18,7 @@ endpoint, la URL apunta directo al archivo, y no hay una sola clase.
 ## Crear un proyecto nuevo desde este template
 
 ```bash
-gh repo create mi-api --template TU_USUARIO/php-api-rustica-docker-starter-apache-mysql --private --clone
+gh repo create mi-api --template harikirtandas/php-api-rustica-docker-starter-apache-mysql --private --clone
 cd mi-api
 make install
 ```
@@ -169,7 +169,7 @@ hermano con router).
 
 ## Arrancar un proyecto real
 
-1. `gh repo create mi-api --template TU_USUARIO/php-api-rustica-docker-starter-apache-mysql --private --clone && cd mi-api`
+1. `gh repo create mi-api --template harikirtandas/php-api-rustica-docker-starter-apache-mysql --private --clone && cd mi-api`
 2. Reemplazar `docker/mysql/init/01-schema.sql` por el schema real.
 3. Copiar `notas.php`/`notas_item.php` como base de cada recurso nuevo; borrar
    los que no se usen.
